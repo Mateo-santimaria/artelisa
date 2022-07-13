@@ -27,10 +27,11 @@ h1 {
     color: rgb(41, 40, 40);
     font-size: 70px;
     padding: 1%;
-    
-    
+    transition: transform 2s;
 }
-
+h1:hover{
+    transform: rotateX(360deg);
+}
 .logo {
     width: 20%;
     padding: 1%;
@@ -53,9 +54,12 @@ nav ul li a {
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
     width: fit-content;
+    transition: all 2s;
 
 }
-
+.itemsindex:hover{
+    transform: scale(1.5) rotate(360deg);
+}
 .listaindex {
     margin: auto;
     width: fit-content;
@@ -71,13 +75,16 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     width: fit-content;
-
     background-color: rgb(250, 152, 117);
     border: solid 2px rgb(68, 68, 68);
     border-radius: 6px;
     color: rgb(32, 32, 32);
     padding: 10px 10px 10px 10px;
+    transition: transform 2s;
 
+}
+h2:hover{
+    transform: rotateX(360deg);
 }
 
 p {
@@ -155,6 +162,11 @@ p {
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
     width: fit-content;
+    transition: all 2s;
+}
+
+.itemscontacto:hover{
+    transform: scale(1.5) rotate(360deg);
 }
 
 .elisa {
@@ -182,6 +194,10 @@ p {
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
     width: fit-content;
+    transition: all 2s;
+}
+.itemsquienessomos:hover{
+    transform: scale(1.5) rotate(360deg);
 }
 .gridmain2{
     display: grid;
@@ -224,6 +240,10 @@ p {
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
     width: fit-content;
+    transition: all 2s;
+}
+.itemsgaleria:hover{
+    transform: scale(1.5) rotate(360deg);
 }
 .gridendiv{
     display: grid;
@@ -246,9 +266,11 @@ p {
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
     width: fit-content;
+    transition: all 2s;
 }
-
-
+.itemsubicacion:hover{
+    transform: scale(1.5) rotate(360deg);
+}
 #ubicacion {
     width: fit-content;
 }
