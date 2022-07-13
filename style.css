@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: coral;
+
+
+}
+
+footer {
+    background-color: coral;
+
+
+}
+
+main {
+    background-color: rgb(250, 165, 134);
+
+}
+
+h1 {
+    width: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(41, 40, 40);
+    font-size: 70px;
+    padding: 1%;
+    
+    
+}
+
+.logo {
+    width: 20%;
+    padding: 1%;
+    
+}
+
+nav ul li a {
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+    
+}
+
+
+.itemsindex {
+    margin: 16px;
+    display: inline-block;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+    width: fit-content;
+
+}
+
+.listaindex {
+    margin: auto;
+    width: fit-content;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+
+}
+.encabezado{
+    padding: 1%;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: fit-content;
+
+    background-color: rgb(250, 152, 117);
+    border: solid 2px rgb(68, 68, 68);
+    border-radius: 6px;
+    color: rgb(32, 32, 32);
+    padding: 10px 10px 10px 10px;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: fit-content;
+    color: rgb(53, 53, 53);
+    border: solid 2px rgb(53, 53, 53);
+    height: fit-content;
+    
+}
+
+.muneca {
+    width: 100%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+
+}
+
+.manualidad {
+    width: 100%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.clase {
+    width: 100%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+.gridenmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: fit-content;
+    gap: 10px;
+   
+
+    
+}
+.columna{
+    margin: 1%;
+    padding: 1%;
+}
+
+
+.facebook {
+    width: 10%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.instagram {
+    width: 10%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.whatsapp {
+    width: 10%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.listacontacto {
+    margin: auto;
+    width: fit-content;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+
+}
+
+.itemscontacto {
+    margin: 16px;
+    display: inline-block;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.elisa {
+    width: 50%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.taller {
+    width: 50%;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.listaquienessomos {
+    margin: auto;
+    width: fit-content;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.itemsquienessomos {
+    margin: 16px;
+    display: inline-block;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+    width: fit-content;
+}
+.gridmain2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    grid-template-rows: 1fr ;
+    gap: 4%;
+    
+}
+
+.munecas {
+    width: 100%;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+
+
+}
+
+.manualidades {
+    width: 100%;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+}
+
+.alumnos {
+    width: 100%;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+}
+.listagaleria {
+    margin: auto;
+    width: fit-content;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.itemsgaleria {
+    margin: 16px;
+    display: inline-block;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+    width: fit-content;
+}
+.gridendiv{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4%;
+    padding: 1%;
+}
+
+.listaubicacion {
+    margin: auto;
+    width: fit-content;
+    border: solid 2px rgb(56, 56, 56);
+    border-radius: 6px;
+}
+
+.itemsubicacion {
+    margin: 16px;
+    display: inline-block;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+    width: fit-content;
+}
+
+
+#ubicacion {
+    width: fit-content;
+}
+
+@media screen and (max-width: 425px) {
+    nav ul li a {
+        font-size: 10px;
+    }
+    h1 {
+       
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 10px;
+        border: solid 1px rgb(68, 68, 68);
+        border-radius: 3px;
+        padding: 5px 5px 5px 5px;
+    }
+    p {
+        font-size: 9px;
+        width: 300px;
+        border: solid 1px rgb(53, 53, 53);
+    }
+    .itemsindex {
+        margin: 5px;
+        border: solid 1px rgb(51, 50, 50);
+        border-radius: 2px;
+    }
+    .gridenmain{
+        display:grid;
+        margin: 0;
+        grid-template-columns: 1fr;
+        width: 425px;
+        height: 700px;
+    }
+    .columna{
+        margin: 1px;
+        padding: 1px;
+        width: 318px;
+        height: fit-content;
+    }
+    .muneca {
+        width:100px;
+    }
+    .manualidad {
+        width: 100px;
+    }
+    .clase {
+        width: 100px;
+    }
+    .itemscontacto {
+        margin: 5px;
+        display: inline-block;
+        border: solid 1px rgb(51, 50, 50);
+        border-radius: 2px;
+        width: fit-content;
+    }
+    .itemsquienessomos {
+        margin: 5px;
+        display: inline-block;
+        border: solid 1px rgb(51, 50, 50);
+        border-radius: 2px;
+        width: fit-content;
+    }
+    .gridmain2{
+        display:grid;
+        margin: 0;
+        grid-template-columns: 1fr;
+        width: 425px;
+        height: 700px;
+        
+    }
+    .sectionquienessomos{
+        margin: 1px;
+        padding: 1px;
+    }
+    .itemsgaleria {
+        margin: 5px;
+        display: inline-block;
+        border: solid 1px rgb(51, 50, 50);
+        border-radius: 2px;
+        width: fit-content;
+    }
+    .gridendiv{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 4%;
+        padding: 2%;
+        
+    }
+    .itemsubicacion {
+        margin: 8px;
+        display: inline-block;
+        border: solid 1px rgb(51, 50, 50);
+        border-radius: 3px;
+        width: fit-content;
+    }
+    .mapa{
+        width: 300px;
+        height: 200px;
+    }
+    .mainubicacion{
+        display:grid;
+        margin: 0;
+        grid-template-columns: 1fr;
+        width: 425px;
+        height: 500px;
+        
+    }
+    .sectionubicacion{
+        margin: 1px;
+        padding: 1px;
+    } 
+}
+@media screen and (max-width: 320px) {
+   
+    .gridenmain{
+        width: 320px;
+    }
+    .gridmain2{
+        width: 320px;
+    }
+    .mainubicacion{
+        width: 320px;
+    }
+}
+
+    
+    
+
