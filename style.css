@@ -2,55 +2,45 @@
     margin: 0;
     padding: 0;
 }
-
-
-header {
+body {
     background-color: coral;
-
-
 }
-
-footer {
+nav{
     background-color: coral;
-
-
+    height: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    margin: 2px;
+    display: inline-block;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+    width: fit-content;
+    transition: all 2s;
 }
-
+.img-thumbnail{
+    transition: transform 5s;
+}
+.img-thumbnail:hover{
+    transform: rotateY(360deg);
+}
+p{
+    background-color: rgb(250, 152, 117);;
+}
 main {
-    background-color: rgb(250, 165, 134);
+    background-color: coral;
 
 }
-
 h1 {
     width: 320px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(41, 40, 40);
-    font-size: 70px;
     padding: 1%;
     transition: transform 2s;
 }
 h1:hover{
     transform: rotateX(360deg);
 }
-.logo {
-    width: 20%;
-    padding: 1%;
-    transition: transform 5s;
-}
-.logo:hover{
-    transform: rotateY(360deg);
-}
-
-nav ul li a {
-    width: fit-content;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(32, 32, 32);
-    
-}
-
-
 .itemsindex {
     margin: 16px;
     display: inline-block;
@@ -58,7 +48,6 @@ nav ul li a {
     border-radius: 6px;
     width: fit-content;
     transition: all 2s;
-
 }
 .itemsindex:hover{
     transform: scale(1.5) rotate(360deg);
@@ -68,12 +57,7 @@ nav ul li a {
     width: fit-content;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
-
 }
-.encabezado{
-    padding: 1%;
-}
-
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
@@ -84,12 +68,10 @@ h2 {
     color: rgb(32, 32, 32);
     padding: 10px 10px 10px 10px;
     transition: transform 2s;
-
 }
 h2:hover{
     transform: rotateX(360deg);
 }
-
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -97,110 +79,46 @@ p {
     color: rgb(53, 53, 53);
     border: solid 2px rgb(53, 53, 53);
     height: fit-content;
-    
 }
-
 .muneca {
     width: 100%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
-
 }
-
 .manualidad {
     width: 100%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-
 .clase {
     width: 100%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-.gridenmain{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: fit-content;
-    gap: 10px;
-   
-
-    
-}
-.columna{
-    margin: 1%;
-    padding: 1%;
-}
-
-
 .facebook {
     width: 10%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-
 .instagram {
     width: 10%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-
 .whatsapp {
     width: 10%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-
-.listacontacto {
-    margin: auto;
-    width: fit-content;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-
-}
-
-.itemscontacto {
-    margin: 16px;
-    display: inline-block;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
-    width: fit-content;
-    transition: all 2s;
-}
-
-.itemscontacto:hover{
-    transform: scale(1.5) rotate(360deg);
-}
-
 .elisa {
     width: 50%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-
 .taller {
     width: 50%;
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
-}
-
-.listaquienessomos {
-    margin: auto;
-    width: fit-content;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-}
-
-.itemsquienessomos {
-    margin: 16px;
-    display: inline-block;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
-    width: fit-content;
-    transition: all 2s;
-}
-.itemsquienessomos:hover{
-    transform: scale(1.5) rotate(360deg);
 }
 .gridmain2{
     display: grid;
@@ -208,9 +126,7 @@ p {
     height: fit-content;
     grid-template-rows: 1fr ;
     gap: 4%;
-    
 }
-
 .munecas {
     width: 100%;
     border: solid 2px rgb(51, 50, 50);
@@ -218,35 +134,15 @@ p {
 
 
 }
-
 .manualidades {
     width: 100%;
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
 }
-
 .alumnos {
     width: 100%;
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
-}
-.listagaleria {
-    margin: auto;
-    width: fit-content;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-}
-
-.itemsgaleria {
-    margin: 16px;
-    display: inline-block;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
-    width: fit-content;
-    transition: all 2s;
-}
-.itemsgaleria:hover{
-    transform: scale(1.5) rotate(360deg);
 }
 .gridendiv{
     display: grid;
@@ -255,29 +151,6 @@ p {
     gap: 4%;
     padding: 1%;
 }
-
-.listaubicacion {
-    margin: auto;
-    width: fit-content;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-}
-
-.itemsubicacion {
-    margin: 16px;
-    display: inline-block;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
-    width: fit-content;
-    transition: all 2s;
-}
-.itemsubicacion:hover{
-    transform: scale(1.5) rotate(360deg);
-}
-#ubicacion {
-    width: fit-content;
-}
-
 @media screen and (max-width: 425px) {
     nav ul li a {
         font-size: 10px;
