@@ -15,7 +15,6 @@ nav{
     display: inline-block;
     border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
-    width: fit-content;
     transition: all 2s;
 }
 .img-thumbnail{
@@ -127,30 +126,19 @@ p {
     grid-template-rows: 1fr ;
     gap: 4%;
 }
-.munecas {
+.carousel1{
+    height: 35%;
+    border: solid 10px rgb(56, 56, 56);
+}
+.carousel-item{
+    height: 400px;
     width: 100%;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit: contain;
+}
 
-
-}
-.manualidades {
-    width: 100%;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
-}
-.alumnos {
-    width: 100%;
-    border: solid 2px rgb(51, 50, 50);
-    border-radius: 6px;
-}
-.gridendiv{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 4%;
-    padding: 1%;
-}
 @media screen and (max-width: 425px) {
     nav ul li a {
         font-size: 10px;
