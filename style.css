@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
+body{
     background-color: coral;
 }
 nav{
@@ -13,7 +9,7 @@ nav{
     color: rgb(32, 32, 32);
     margin: 2px;
     display: inline-block;
-    border: solid 2px rgb(51, 50, 50);
+    border: solid 2px black;
     border-radius: 6px;
     transition: all 2s;
 }
@@ -24,7 +20,7 @@ nav{
     transform: rotateY(360deg);
 }
 p{
-    background-color: rgb(250, 152, 117);;
+    background-color: rgb(250, 152, 117);
 }
 main {
     background-color: coral;
@@ -94,21 +90,7 @@ p {
     border: solid 2px rgb(56, 56, 56);
     border-radius: 6px;
 }
-.facebook {
-    width: 10%;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-}
-.instagram {
-    width: 10%;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-}
-.whatsapp {
-    width: 10%;
-    border: solid 2px rgb(56, 56, 56);
-    border-radius: 6px;
-}
+
 .elisa {
     width: 50%;
     border: solid 2px rgb(56, 56, 56);
@@ -137,6 +119,21 @@ p {
 .carousel-item img{
     height: 400px;
     object-fit: contain;
+}
+.facebook {
+    width: 10%;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+}
+.instagram {
+    width: 10%;
+    border: solid 2px rgb(51, 50, 50);
+    border-radius: 6px;
+}
+.whatsapp {
+    width: 10%;
+    border: solid 2px rgb(51, 50, 50); 
+    border-radius: 6px;
 }
 
 @media screen and (max-width: 425px) {
