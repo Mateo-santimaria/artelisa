@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: coral;
 }
 nav{
@@ -22,9 +22,9 @@ nav{
 p{
     background-color: rgb(250, 152, 117);
 }
-main {
-    background-color: coral;
 
+.mainubicacion{
+    background-color: coral;
 }
 h1 {
     width: 320px;
@@ -107,6 +107,7 @@ p {
     height: fit-content;
     grid-template-rows: 1fr ;
     gap: 4%;
+    background-color: coral;
 }
 .carousel1{
     height: 35%;
@@ -122,17 +123,14 @@ p {
 }
 .facebook {
     width: 10%;
-    border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
 }
 .instagram {
     width: 10%;
-    border: solid 2px rgb(51, 50, 50);
     border-radius: 6px;
 }
 .whatsapp {
     width: 10%;
-    border: solid 2px rgb(51, 50, 50); 
     border-radius: 6px;
 }
 
@@ -259,7 +257,3 @@ p {
         width: 320px;
     }
 }
-
-    
-    
-

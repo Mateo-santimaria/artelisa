@@ -1,5 +1,25 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
+.bodycontacto{
+    background-color: $color-secundario;
+}
+.h2{
+    background-color: $color-principal;
+}
+.p{
+    background-color: $color-principal;
+}
+.facebook {
+    border: solid 2px $color-terciario;
+    background-color: $color-principal;
+}
+.instagram {
+    border: solid 2px $color-terciario;
+    background-color: $color-principal;
+}
+.whatsapp {
+    border: solid 2px $color-terciario; 
+    background-color: $color-principal;
+}
